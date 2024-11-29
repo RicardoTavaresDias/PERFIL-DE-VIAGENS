@@ -1,4 +1,4 @@
-<h1 align="center"> Travelgram - Perfil de Viagens </h1>
+<h1 align="center"> TRAVELGRAM - Perfil de Viagens </h1>
 
 <p align="center">
 Programa exclusivo no curso Full-Stack, promovido pela Rocketseat para ensino de tecnologias WEB, no Modulo Avançando no HTML e CSS, realizado junto com intrutor, foi aplicado o Conceito Flex Box do CSS nesse projeto.
