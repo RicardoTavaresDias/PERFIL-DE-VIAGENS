@@ -25,4 +25,30 @@ body {
   background-color: var(--bakgroud-color);
 }
 
+a {
+  text-decoration: none;
+  /* Remove a cor azul do link e ficara na cor original, definido na variavel do BODY para cor do texto da pagina */
+  color: inherit;
+}
 
+a:hover {
+  color: var(--brand-color);
+  /* underline vai ficar com risco em baixo que é natural do link mas somente quando passar o mouse */
+  text-decoration: underline;
+  
+}
+
+
+.container {
+  /* inline vai dar espaços espços laterais no logo e no menu */
+  padding-inline: 32px;
+  max-width: 1280px;
+  /* margin inline vai centralizar a nav no centro automatico com atributo auto */
+  margin-inline: auto;
+  
+}
+
+/* Cor backgroud da DIV que pega toda a Nav e a nav limitado no 1280px nas laterais */
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
