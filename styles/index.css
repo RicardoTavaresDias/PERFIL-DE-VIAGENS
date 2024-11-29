@@ -1,3 +1,4 @@
 /* Importação dos arquivos CSS na pasta Styles */
 @import url(global.css);
 @import url(nav.css);
+@import url(header.css);
