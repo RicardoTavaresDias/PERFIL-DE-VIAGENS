@@ -1,6 +1,7 @@
 header {
   /* Dando espaço entre as palavras em cima e em baixo e gap entre as palavras, para afastar */
   padding-block: 32px;
+  font: var(--text-md);
 }
 
 header .container {
@@ -36,7 +37,7 @@ header .container {
 
 #profile p {
   border: 2px solid maroon;
-  font: var(--text-md);
+  
 } 
 
 #info {
