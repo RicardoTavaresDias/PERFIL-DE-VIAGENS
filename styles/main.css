@@ -1,0 +1,18 @@
+main {
+  border: 2px solid red;
+
+  display: flex;
+  /* As imagens vai ocupar espaço disponivel na div, mas volta como column */
+  flex-wrap: wrap;
+  gap: 24px;
+   /* Dando espaço entre as palavras em cima e em baixo e gap entre as palavras, para afastar */
+  padding-block: 24px;
+}
+
+main img {
+  border: 2px solid blue;
+
+  width: 286px;
+  height: 286px;
+  object-fit: cover; /*Vai cobrir todo o espaço 286px por 286px sem perder qualidade */
+}
