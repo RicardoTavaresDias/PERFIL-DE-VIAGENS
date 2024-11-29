@@ -1,6 +1,6 @@
 
 footer {
-  border: 2px solid black;
+  /* border: 2px solid black; */
 
   display: flex;
   padding-block: 24px;
@@ -10,7 +10,7 @@ footer {
 
 /* nth-child(1) é vai pergar primeiro span 'filho' no pai 'footer' | nth-child(1) é contagem dos filhos dentro da container ou 'pai' */
 footer span:nth-child(1) {
-  border: 2px solid violet;
+  /* border: 2px solid violet; */
 
   margin-right: auto;
 }

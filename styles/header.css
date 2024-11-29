@@ -5,7 +5,7 @@ header {
 }
 
 header .container {
-  border: 4px solid orange;
+  /* border: 4px solid orange; */
 
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,7 @@ header .container {
 
 
 #profile {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
   display: flex;
   gap: 32px;
@@ -22,7 +22,7 @@ header .container {
 
 /* Profile vai pegar o primeiro filho DIV com sinal de > 'maior' */
 #profile > div {
-  border: 4px solid pink;
+  /* border: 4px solid pink; */
   
   max-width: 384px;
 }
@@ -37,7 +37,7 @@ header .container {
 
 
 #profile h1 {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 
   font: var(--text-lg);
   color: var(--text-color-primary);
@@ -45,12 +45,12 @@ header .container {
 }
 
 #profile p {
-  border: 2px solid maroon;
+  /* border: 2px solid maroon; */
   
 } 
 
 #info {
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
 
   list-style: none;
   display: flex;

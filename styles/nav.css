@@ -1,5 +1,5 @@
 nav {
-  border: 2px solid black;
+  /* border: 2px solid black; */
 
   display: flex;
   justify-content: space-between;
@@ -13,7 +13,7 @@ nav {
 }
 
 nav ul {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
   list-style: none;
   display: flex;
