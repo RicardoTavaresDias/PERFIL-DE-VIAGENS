@@ -4,7 +4,7 @@ main {
   display: flex;
   /* As imagens vai ocupar espaço disponivel na div, mas volta como column */
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 22px;
    /* Dando espaço entre as palavras em cima e em baixo e gap entre as palavras, para afastar */
   padding-block: 24px;
 }

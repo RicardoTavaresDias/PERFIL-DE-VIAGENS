@@ -5,6 +5,7 @@ footer {
   display: flex;
   padding-block: 24px;
   gap: 24px;
+  font: 14px/150% var(--font-family);
 }
 
 /* nth-child(1) é vai pergar primeiro span 'filho' no pai 'footer' | nth-child(1) é contagem dos filhos dentro da container ou 'pai' */

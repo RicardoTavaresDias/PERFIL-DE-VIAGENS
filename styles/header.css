@@ -27,6 +27,15 @@ header .container {
   max-width: 384px;
 }
 
+/* Aqui é definir as propriedade da imgem do perfil maior para se comportar melhor ao encolher e telas menores */
+#profile img {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 50px; /*Vai cobrir todo o espaço 40px por 40px sem perder qualidade */
+}
+
+
 #profile h1 {
   border: 2px solid blue;
 
