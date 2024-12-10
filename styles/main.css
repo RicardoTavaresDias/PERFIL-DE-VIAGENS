@@ -1,5 +1,5 @@
 main {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
   display: flex;
   /* As imagens vai ocupar espaço disponivel na div, mas volta como column */
@@ -9,8 +9,26 @@ main {
   padding-block: 24px;
 }
 
+
+
+/* main - mobile */
+@media (width < 80em) {
+  main {
+    justify-content: center; 
+    
+    & img {
+      width: 328px;
+      height: 328px;
+      /* border: solid yellow; */
+    }
+  }
+}
+
+
+
+
 main img {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 
   width: 286px;
   height: 286px;
