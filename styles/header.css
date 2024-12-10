@@ -37,7 +37,7 @@ header .container {
 @media (width < 80em) {
   #profile {
     flex-direction: column;
-    padding-inline: 30px;
+    /* border: solid red; */
   }
 }
 
@@ -88,13 +88,14 @@ header .container {
 /* #info - mobile */
 @media (width < 80em) {
   #info {
+    /* border: solid blue; */
     margin-top: 32px;
-    padding-inline: 32px;
-   display: flex;
-   align-self: center;
+    /* padding-inline: 32px; */
+    display: flex;
+    align-self: flex-start;
+    
   }
 }
-
 
 
 #info li {
