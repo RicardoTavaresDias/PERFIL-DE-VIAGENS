@@ -55,7 +55,7 @@ header .container {
   width: 176px;
   height: 176px;
   object-fit: cover;
-  border-radius: 50px; /*Vai cobrir todo o espaço 40px por 40px sem perder qualidade */
+  border-radius: 100px; /*Vai cobrir todo o espaço 40px por 40px sem perder qualidade */
 }
 
 
