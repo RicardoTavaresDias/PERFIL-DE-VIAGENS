@@ -45,8 +45,18 @@ a:hover {
   max-width: 1280px;
   /* margin inline vai centralizar a nav no centro automatico com atributo auto */
   margin-inline: auto;
-  
 }
+
+
+
+/* .container - mobile */
+@media (width < 80em) {
+  .container {
+    padding-inline: 16px;
+  }
+}
+
+
 
 /* Cor backgroud da DIV que pega toda a Nav e a nav limitado no 1280px nas laterais */
 .bg-surface-color {

@@ -1,5 +1,5 @@
 nav {
-  border: 2px solid black;
+  /* border: 2px solid black; */
 
   display: flex;
   justify-content: space-between;
@@ -13,7 +13,7 @@ nav {
 }
 
 nav ul {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
   list-style: none;
   display: flex;
@@ -23,6 +23,27 @@ nav ul {
   padding-block: 8px;
   gap: 24px;
 }
+
+
+
+
+/* nav - mobile */
+@media (width < 80em) {
+  nav {
+    padding-block: 16px;
+    & ul {
+      margin: 0;
+    }
+
+    & ul li:nth-child(2), li:nth-child(3) {
+      display: none;
+    }
+  }
+}
+
+
+
+
 
 nav ul li:last-child img {
   width: 40px;
